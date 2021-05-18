@@ -30,7 +30,7 @@ echo -e "#    TIGA DDOS BER DAMAGE     #"
 echo -e "###############################"
 echo
 sleep 1
-echo -e "$yellow1). DDOS LUCITA"
+echo -e "1). DDOS LUCITA"
 echo -e "2). DDOS VIRUS DROID"
 echo -e "3). VANESA ANGGEL"
 echo
@@ -38,7 +38,7 @@ echo
 sleep 1
 read -p "MASUKAN PILIHAN ====> " frit
 
-if [ $frit == "1" ]
+if [ $frit = "1" ]
 then
 clear
     cd $HOME
@@ -50,7 +50,7 @@ clear
     python pukul.py
 fi
 
-if [ $frit == "2" ]
+if [ $frit = "2" ]
 then
 clear
     cd $HOME
@@ -63,7 +63,7 @@ clear
     sh Ddos.sh
 fi
 
-if [ $frit == "3" ]
+if [ $frit = "3" ]
 then
 clear
     cd $HOME
