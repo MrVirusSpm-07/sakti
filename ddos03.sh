@@ -41,7 +41,6 @@ read -p "MASUKAN PILIHAN ====> " frit
 if [ $frit = "1" ]
 then
 clear
-    cd $HOME
     apt update && apt upgrade -y
     pkg install git -y
     pkg install python -y
@@ -51,7 +50,6 @@ fi
 if [ $frit = "2" ]
 then
 clear
-    cd $HOME
     apt update && apt upgrade -y
     apt install git toilet -y
     apt install python -y
@@ -62,7 +60,6 @@ fi
 if [ $frit = "3" ]
 then
 clear
-    cd $HOME
     pkg update && pkg upgrade
     pkg install git
     pkg install python2
