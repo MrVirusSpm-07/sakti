@@ -7,4 +7,4 @@ $ pkg install figlet
 $ pkg install git                    
 $ git clone https://github.com/MrVirusSpm-07/sakti    
 $ cd sakti                     
-$ bash 3ddos.sh
+$ bash ddos03.sh
