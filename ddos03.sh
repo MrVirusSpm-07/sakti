@@ -46,8 +46,6 @@ clear
     pkg install git -y
     pkg install python -y
     git clone https://github.com/zlucifer/lucita_ddos
-    cd lucita_ddos
-    python pukul.py
 fi
 
 if [ $frit = "2" ]
@@ -59,8 +57,6 @@ clear
     apt install python -y
     apt install python2 -y
     git clone https://github.com/banghyuu/ddosWD
-    cd ddosWD
-    sh Ddos.sh
 fi
 
 if [ $frit = "3" ]
@@ -71,7 +67,4 @@ clear
     pkg install git
     pkg install python2
     git clone https://github.com/MiSetya/VA-DDOS
-    cd VA-DDOS
-    chmod +x 80juta.py
-    python2 80juta.py
 fi
